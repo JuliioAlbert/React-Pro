@@ -5,9 +5,10 @@ import ProductCard, {
 } from "../components";
 import "../styles/custom-styles.css";
 import { useShoppingCart } from "../hooks/useShoppingCart";
+import { products } from "../data/product";
 
 export const ShoppingPage = () => {
-  const { onProductCountChange, shoppingCart, products } = useShoppingCart();
+  const { onProductCountChange, shoppingCart } = useShoppingCart();
 
   return (
     <div>
