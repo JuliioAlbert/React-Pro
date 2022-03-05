@@ -1,0 +1,38 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "placeholder": "Julio",
+    "label": "First Name",
+    "value": "",
+    "validations": [{ "type": "required" }, { "type": "minLength", "value": 5 }]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "placeholder": "Gonzalez",
+    "label": "Last Name",
+    "value": "",
+    "validations": [{ "type": "required" }]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "correo@correo.com",
+    "label": "Correo",
+    "value": "",
+    "validations": [{ "type": "required" }, { "type": "email" }]
+  },
+  {
+    "type": "select",
+    "name": "favoriteGames",
+    "label": "Favorite Game",
+    "value": "",
+    "options": [
+      { "id": 1, "values": "GTA" },
+      { "id": 2, "values": "Mario kart" },
+      { "id": 3, "values": "Fifa" }
+    ],
+    "validations": [{ "type": "required" }]
+  }
+]
